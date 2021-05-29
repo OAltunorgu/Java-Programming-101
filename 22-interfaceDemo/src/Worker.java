@@ -1,0 +1,22 @@
+//bizim çalýþanýmýz hem workable hem eatable
+public class Worker implements IWorkable, IEatable, IPayable{
+
+	@Override
+	public void work() {
+		System.out.println("Bizim çalýþanýmýz çalýþýr!");
+		
+	}
+
+	@Override
+	public void eat() {
+		System.out.println("Bizim çalýþanýmýz yemek hakký!");
+		
+	}
+
+	@Override
+	public void pay() {
+		System.out.println("Bizim çalýþanýmýz maaþý!");
+		
+	}
+
+}
