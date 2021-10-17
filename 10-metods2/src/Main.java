@@ -21,7 +21,7 @@ public class Main {
 	}
 
 	public static void guncelle() {
-		System.out.println("Güncellendi!");
+		System.out.println("GÃ¼ncellendi!");
 	}
 
 	public static String sehirVer() {

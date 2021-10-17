@@ -1,7 +1,7 @@
 public class Main {
 
 	public static void main(String[] args) {
-		// Javada ilk main çalışır.
+		// Javada ilk main Ã§alÄ±ÅŸÄ±r.
 		sayiBulmaca();
 	}
 
@@ -18,9 +18,9 @@ public class Main {
 		}
 
 		if (varMi) {
-			mesajVer("Sayı mevcuttur. " + aranacakSayi);
+			mesajVer("SayÄ± mevcuttur. " + aranacakSayi);
 		} else {
-			mesajVer("Sayı mevcut değildir: " + aranacakSayi);
+			mesajVer("SayÄ± mevcut deÄŸildir: " + aranacakSayi);
 		}
 	}
 

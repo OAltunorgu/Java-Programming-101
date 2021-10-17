@@ -7,7 +7,7 @@ public class Main {
 		for(int i=0;i<=10;i+=2) {
 			System.out.println(i);
 		}
-		System.out.println("0-10 Arasý Çift Sayý For Döngüsü Bitti!\n");
+		System.out.println("0-10 ArasÄ± Ã‡ift SayÄ± For DÃ¶ngÃ¼sÃ¼ Bitti!\n");
 		
 		//While Loop
 		int x=0;
@@ -15,7 +15,7 @@ public class Main {
 			System.out.println(x);
 			x+=2;
 		}
-		System.out.println("0-10 Arasý Çift Sayý While Döngüsü Bitti!\n");
+		System.out.println("0-10 ArasÄ± Ã‡ift SayÄ± While DÃ¶ngÃ¼sÃ¼ Bitti!\n");
 	
 		//Do-While Loop
 		int j=100;
@@ -23,7 +23,7 @@ public class Main {
 			System.out.println(j);
 			j+=2;
 		}while(j<=10);
-		System.out.println("0-10 Arasý Çift Sayý Do-While Döngüsü Bitti!\n");	
-		System.out.println("While ile Do-While arasý fark While þart saðlanýrsa çalýþýr ama Do-While da þart saðlanmasada 1 kez çalýþýr!\n");	
+		System.out.println("0-10 ArasÄ± Ã‡ift SayÄ± Do-While DÃ¶ngÃ¼sÃ¼ Bitti!\n");	
+		System.out.println("While ile Do-While arasÄ± fark While ÅŸart saÄŸlanÄ±rsa Ã§alÄ±ÅŸÄ±r ama Do-While da ÅŸart saÄŸlanmasada 1 kez Ã§alÄ±ÅŸÄ±r!\n");	
 	}
 }

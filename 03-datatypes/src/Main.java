@@ -2,17 +2,17 @@
 public class Main {
 
 	public static void main(String[] args) {
-		int deger = 2147483647; 	// -2147483648 ile 2147483647 arası
-        short deger2 = 32767; 		// -32768 ile +32767 arası
-        long deger3 = 2147483647; 	// -2147483648 ile 2147483647 arası
-        float deger4 = 342.3f; 		// 32 bit 1.4×10^-45 ile 3.4×10^38 arası
-        double deger5 = 5.23; 		// 64 bit 4.9×10^-324 ile 1.8×10^308 arası
+		int deger = 2147483647; 	// -2147483648 ile 2147483647 arasÄ±
+        short deger2 = 32767; 		// -32768 ile +32767 arasÄ±
+        long deger3 = 2147483647; 	// -2147483648 ile 2147483647 arasÄ±
+        float deger4 = 342.3f; 		// 32 bit 1.4Ã—10^-45 ile 3.4Ã—10^38 arasÄ±
+        double deger5 = 5.23; 		// 64 bit 4.9Ã—10^-324 ile 1.8Ã—10^308 arasÄ±
         char deger6 = 'y';			// 16 bit
         char deger7 = 95;			// 16 bit
         boolean booleanDogru = true;
         boolean booleanYanlis = false;
         byte deger8 = 127;
-        String myName = "Oğulcan Altunörgü";
+        String myName = "OÄŸulcan AltunÃ¶rgÃ¼";
         
         System.out.println(deger);
         System.out.println(deger2);

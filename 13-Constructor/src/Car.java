@@ -5,7 +5,7 @@ public class Car {
 	private double engine;
 	
 	public Car() {
-		System.out.println("Parametresiz Constructor Çalýþtý!");
+		System.out.println("Parametresiz Constructor Ã‡alÄ±ÅŸtÄ±!");
 	}
 	
 
@@ -14,7 +14,7 @@ public class Car {
 		this.model = model;
 		this.doors = doors;
 		this.engine = engine;
-		System.out.println("Parametreli Constructor Çalýþtý!");
+		System.out.println("Parametreli Constructor Ã‡alÄ±ÅŸtÄ±!");
 	}
 
 	public String getColor() {
@@ -42,12 +42,3 @@ public class Car {
 		this.engine = engine;
 	}	
 }
-
-
-
-
-
-
-
-
-

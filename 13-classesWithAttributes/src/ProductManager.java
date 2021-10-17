@@ -1,7 +1,7 @@
 
 public class ProductManager {
 	public void add(Product product) {
-		System.out.println("Ürün eklendi! " + product.name + " " + product.description);
+		System.out.println("ÃœrÃ¼n eklendi! " + product.name + " " + product.description);
 	}
 
 }

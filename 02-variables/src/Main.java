@@ -7,7 +7,7 @@ public class Main {
 		int num = 10;
 		System.out.println("Sayi-1 : " + num);
 		
-		String mesaj = "Sayi-2 : ";
+		String mesaj = "Sayi-1 : ";
 		System.out.println(mesaj + num);
 	}
 }

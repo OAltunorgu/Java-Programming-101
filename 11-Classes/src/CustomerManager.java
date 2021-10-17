@@ -1,15 +1,15 @@
 
 public class CustomerManager {
 	public void add() {
-		System.out.println("Müþteri bilgisi eklendi!");
+		System.out.println("MÃ¼ÅŸteri bilgisi eklendi!");
 	}
 
 	public void delete() {
-		System.out.println("Müþteri bilgisi silindi!");
+		System.out.println("MÃ¼ÅŸteri bilgisi silindi!");
 	}
 
 	public void update() {
-		System.out.println("Müþteri bilgisi güncellendi!");
+		System.out.println("MÃ¼ÅŸteri bilgisi gÃ¼ncellendi!");
 	}
 
 }

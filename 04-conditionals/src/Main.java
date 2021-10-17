@@ -4,11 +4,11 @@ public class Main {
 	public static void main(String[] args) {
 		int notunuz = 50;
 		if (notunuz<50) {
-			System.out.println("Notunuz ders geçme notunun altýnda kaldý, notunuz: " + notunuz);
+			System.out.println("Notunuz ders geÃ§me notunun altÄ±nda kaldÄ±, notunuz: " + notunuz);
 		}else if (notunuz == 50) {
-			System.out.println("Notunuz ders geçme notuna eþittir, notunuz: " + notunuz);
+			System.out.println("Notunuz ders geÃ§me notuna eÅŸittir, notunuz: " + notunuz);
 		}else {
-			System.out.println("Notunuz ders geçme notundan büyüktür, notunuz: " + notunuz);
+			System.out.println("Notunuz ders geÃ§me notundan bÃ¼yÃ¼ktÃ¼r, notunuz: " + notunuz);
 		}
 	}
 }

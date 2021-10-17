@@ -1,13 +1,13 @@
 
 public class Product {
-	// Constructor (Yapıcı blok / Yapıcı metod Parametresiz Constructor)
+	// Constructor (YapÄ±cÄ± blok / YapÄ±cÄ± metod Parametresiz Constructor)
 	public Product() {
-		System.out.println("Parametresiz Yapıcı blok çalıştı!");
+		System.out.println("Parametresiz YapÄ±cÄ± blok Ã§alÄ±ÅŸtÄ±!");
 	}
 
 	// Parametreli Constructor
 	public Product(int id, String name, String description, double price, int StockAmount, String renk) {
-		System.out.println("Parametreli Constructor Yapıcı blok çalıştı!");
+		System.out.println("Parametreli Constructor YapÄ±cÄ± blok Ã§alÄ±ÅŸtÄ±!");
 		this.id = id;
 		this.name = name;
 		this.description = description;
