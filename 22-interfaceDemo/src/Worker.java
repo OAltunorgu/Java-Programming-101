@@ -1,21 +1,21 @@
-//bizim çalışanımız hem workable hem eatable
+//bizim Ã§alÄ±ÅŸanÄ±mÄ±z hem workable hem eatable
 public class Worker implements IWorkable, IEatable, IPayable{
 
 	@Override
 	public void work() {
-		System.out.println("Bizim çalışanımız çalışır!");
+		System.out.println("Bizim Ã§alÄ±ÅŸanÄ±mÄ±z Ã§alÄ±ÅŸÄ±r!");
 		
 	}
 
 	@Override
 	public void eat() {
-		System.out.println("Bizim çalışanımız yemek hakkı!");
+		System.out.println("Bizim Ã§alÄ±ÅŸanÄ±mÄ±z yemek hakkÄ±!");
 		
 	}
 
 	@Override
 	public void pay() {
-		System.out.println("Bizim çalışanımız maaşı!");
+		System.out.println("Bizim Ã§alÄ±ÅŸanÄ±mÄ±z maaÅŸÄ±!");
 		
 	}
 

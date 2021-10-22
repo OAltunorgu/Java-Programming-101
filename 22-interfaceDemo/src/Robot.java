@@ -3,13 +3,13 @@ public class Robot implements IWorkable,IMaintainable{
 
 	@Override
 	public void work() {
-		System.out.println("Robot çalýþanýmýz çalýþýr!");
+		System.out.println("Robot Ã§alÄ±ÅŸanÄ±mÄ±z Ã§alÄ±ÅŸÄ±r!");
 		
 	}
 
 	@Override
 	public void maintainable() {
-		System.out.println("Robot çalýþanýmýz bakým!");
+		System.out.println("Robot Ã§alÄ±ÅŸanÄ±mÄ±z bakÄ±m!");
 		
 	}
 

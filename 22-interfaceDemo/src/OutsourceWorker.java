@@ -3,7 +3,7 @@ public class OutsourceWorker implements IWorkable{
 
 	@Override
 	public void work() {
-		System.out.println("Outsource çalýþanýmýz çalýþýr!");
+		System.out.println("Outsource Ã§alÄ±ÅŸanÄ±mÄ±z Ã§alÄ±ÅŸÄ±r!");
 		
 	}
 

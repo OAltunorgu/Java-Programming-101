@@ -8,7 +8,7 @@ public class Main {
 		BaseKrediManager[] krediManagers = new BaseKrediManager[] { new OgretmenKrediManager(), new TarimKrediManager(), new OgrenciKrediManager()};
 		
 		for (BaseKrediManager krediManager : krediManagers) {
-			System.out.println(krediManager.Hesapla(1000));
+			System.out.println(krediManager.Hesapla(1000) + " TL");
 		}
 	}
 

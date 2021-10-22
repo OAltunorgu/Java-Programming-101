@@ -2,23 +2,35 @@
 public class Main {
 
 	public static void main(String[] args) {
-		//Hesaplama sistemi kadın, erkek ve cocuk için farklı olacağı için nasıl yapılmalıdır?
-		//1. yöntem hesapla methodunu overriding ezeriz erkekte 90 kadında 100 cocukta basedeki kalsın gibi yapı kurulabilir.
-		//2. yöntem ise abstract
-		//2. yöntem için olması gerekenler 1-abstract class imzası yer almalı. 2-Operasyonun abstract olabilmesi için yine abstract ile beslenmeli.
+		//Hesaplama sistemi kadÄ±n, erkek ve cocuk iÃ§in farklÄ± olacaÄŸÄ± iÃ§in nasÄ±l yapÄ±lmalÄ±dÄ±r?
+		//1. yÃ¶ntem hesapla methodunu overriding ezeriz erkekte 90 kadÄ±nda 100 cocukta basedeki kalsÄ±n gibi yapÄ± kurulabilir.
+		//2. yÃ¶ntem ise abstract
+		//2. yÃ¶ntem iÃ§in olmasÄ± gerekenler 1-abstract class imzasÄ± yer almalÄ±. 2-Operasyonun abstract olabilmesi iÃ§in yine abstract ile beslenmeli.
 		WomanGameCalculator womanGameCalculator = new WomanGameCalculator();
 		womanGameCalculator.hesapla();
 		
 		womanGameCalculator.gameOver();
-		
-		// Abstract class'lar new kullanımı yapamaz yada her new kullanımında tekrar içini kullanmak gerekir ezerek kullanabilirsiniz.
+		System.out.println("\n");
+		// Abstract class'lar new kullanÄ±mÄ± yapamaz yada her new kullanÄ±mÄ±nda tekrar iÃ§ini kullanmak gerekir ezerek kullanabilirsiniz.
 		//GameCalculator gameCalculator = new GameCalculator();
 		
 		GameCalculator gameCalculator = new WomanGameCalculator(); 
-		GameCalculator gameCalculators = new ManGameCalculator();
 		gameCalculator.hesapla();
+		System.out.println("\n");
+
+		GameCalculator gameCalculators = new ManGameCalculator();
 		gameCalculators.hesapla();
 		gameCalculators.gameOver();
+		System.out.println("\n");
+
+		GameCalculator gameCalculators1 = new OlderGameCalculator();
+		gameCalculators1.hesapla();
+		gameCalculators1.gameOver();
+		System.out.println("\n");
+
+		GameCalculator gameCalculators2 = new KidsGameCalculator();
+		gameCalculators2.hesapla();
+		gameCalculators2.gameOver();
 	}
 	
 }

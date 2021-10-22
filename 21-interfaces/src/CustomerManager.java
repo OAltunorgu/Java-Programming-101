@@ -8,7 +8,7 @@ public class CustomerManager{
 	}
 	
 	public void add() {
-		//iş kodları
+		//iÅŸ kodlarÄ±
 		customerDal.Add();
 	}
 }
