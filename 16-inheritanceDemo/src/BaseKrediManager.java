@@ -1,6 +1,6 @@
 
 public class BaseKrediManager {
 	public void Hesapla() {
-		System.out.println("Kredi Hesaplandı!");
+		System.out.println("Kredi HesaplandÄ±!");
 	}
 }

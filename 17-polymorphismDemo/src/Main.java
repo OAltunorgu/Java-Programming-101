@@ -4,18 +4,18 @@ public class Main {
 	public static void main(String[] args) {
 		BaseLogger[] loggers = new BaseLogger[] { new FileLogger(), new EmailLogger(), new DatabaseLogger(), new ConsoleLogger() };
 		//BaseLogger[] loggers = new BaseLogger[] { new FileLogger(), new DatabaseLogger(), new ConsoleLogger() };
-		//plug and play mantığında rahatlıkla sil kullan tak çalıştır mantığı var. Email logu mesale istemiyoruz sil kullanma.
+		//plug and play mantÄ±ÄŸÄ±nda rahatlÄ±kla sil kullan tak Ã§alÄ±ÅŸtÄ±r mantÄ±ÄŸÄ± var. Email logu mesale istemiyoruz sil kullanma.
 
-//		for (BaseLogger logger:loggers) {
-//			logger.log("Log Mesajı");
-//		}
+		//		for (BaseLogger logger:loggers) {
+		//			logger.log("Log MesajÄ±");
+		//		}
 		
-		CustomerManager customerManager = new CustomerManager(new FileLogger());//Artık hangi logger kullanırsak onu çağıracağız.
+		CustomerManager customerManager = new CustomerManager(new FileLogger());//ArtÄ±k hangi logger kullanÄ±rsak onu Ã§aÄŸÄ±racaÄŸÄ±z.
 		customerManager.add();
 	
 		System.out.println("\n");
 		
-		CustomerManager customerManager1 = new CustomerManager(new DatabaseLogger());//Artık hangi logger kullanırsak onu çağıracağız.
+		CustomerManager customerManager1 = new CustomerManager(new DatabaseLogger());//ArtÄ±k hangi logger kullanÄ±rsak onu Ã§aÄŸÄ±racaÄŸÄ±z.
 		customerManager1.add();
 		
 	}

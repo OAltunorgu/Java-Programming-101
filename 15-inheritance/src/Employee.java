@@ -1,5 +1,5 @@
 
-public class Employee extends Person{
+public class Employee extends Person {
 	double salary;
-	
+
 }

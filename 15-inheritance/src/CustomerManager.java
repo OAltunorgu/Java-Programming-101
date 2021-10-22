@@ -1,4 +1,4 @@
 
-public class CustomerManager extends PersonManager{
-	
+public class CustomerManager extends PersonManager {
+
 }
